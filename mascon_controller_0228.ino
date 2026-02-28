@@ -105,7 +105,7 @@ void loop() {
       level = i;
       break; 
     }
-
+  }
   // If level changed
   if (level != pre_level) {
     pre_level = level;
